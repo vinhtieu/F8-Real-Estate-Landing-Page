@@ -1,0 +1,20 @@
+:root {
+
+  /* * color */ 
+  --clr-primary: #0F1B4C;
+
+  /* * font-size */ 
+  --fs-navbar: var(.875rem);
+
+  /* * font-weight */
+  --fw-bold: 700;
+  --fw-semi-bold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+
+  --fw-navbar: var(--fw-medium);
+
+  /* * font-family */
+  --ff-primary: Poppins;
+  --ff-secondary: Lato;
+}

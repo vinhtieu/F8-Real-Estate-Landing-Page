@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1110px;
+  min-width: calc(100% - 330px);
+  min-height: 736px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  --bg-color: var(--clr-primary);
+  --txt-color: #ffffff;
+  padding: 15.8px 27.5px;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  color: var(--txt-color);
+}
+.btn--small {
+  padding: 11px 20px;
+}
+.btn--light {
+  --bg-color: #ffffff;
+  --txt-color: var(--clr-primary);
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background: #E6F0FF;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  font-weight: var(--fw-navbar);
+  font-size: var(--fs-navbar);
+}
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin-left: 50px;
+}
+.navbar .nav-link {
+  display: flex;
+  padding: 8px 14px;
+  color: #4f5361;
+}
+
+.action {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.action-link {
+  --txt-color: var(--clr-blue-zodiac);
+  color: var(--txt-color);
+}
+
+.hero {
+  display: flex;
+}
+.hero .info {
+  margin-top: 130px;
+  margin-right: 67px;
+  width: 51%;
+}
+.hero .sub-title {
+  font-weight: var(--fw-medium);
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #687690;
+  margin-bottom: 8px;
+}
+.hero .title {
+  font-weight: var(--fw-bold);
+  font-size: 64px;
+  line-height: 76px;
+  color: #000336;
+  margin-bottom: 30px;
+}
+.hero .desc {
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  color: #5a6473;
+  margin-bottom: 40px;
+}
+.hero__img {
+  position: absolute;
+  top: 117px;
+  right: 65px;
+  outline: 1px solid blue;
+}
+
+:root {
+  /* * color */
+  --clr-primary: #0F1B4C;
+  /* * font-size */
+  --fs-navbar: var(.875rem);
+  /* * font-weight */
+  --fw-bold: 700;
+  --fw-semi-bold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-navbar: var(--fw-medium);
+  /* * font-family */
+  --ff-primary: Poppins;
+  --ff-secondary: Lato;
+}/*# sourceMappingURL=main.css.map */

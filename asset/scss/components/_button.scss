@@ -1,0 +1,21 @@
+.btn {
+  --bg-color: var(--clr-primary);
+  --txt-color: #ffffff;
+
+  padding: 15.8px 27.5px;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  color: var(--txt-color);
+
+  &--small {
+    padding: 11px 20px;
+  }
+
+  &--light {
+    --bg-color: #ffffff;
+    --txt-color: var(--clr-primary);
+
+    background-color: var(--bg-color);
+    color: var(--txt-color)
+  }
+}
